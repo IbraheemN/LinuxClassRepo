@@ -174,7 +174,7 @@ root@machine$ curl localhost
 root@machine$ curl localhost > curlResponse.html
 # dump the data to a file so it's easier to look through
 root@machine$ less curlResponse.html # look through, verify you have the default apache page. That means the server is running.
-root@machine$ curl ipinfo.io/io # get your server ip address
+root@machine$ curl ipinfo.io/ip # get your server ip address
 \end{lstlisting}
 
 Open a browser on a laptop or computer. Go to the server ip address, make sure the server is running. You should see the same default apache page you saw with curl localhost. But now you are looking at it through a browser on a different machine ( you ran curl on the webserver itself ).
